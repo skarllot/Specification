@@ -13,7 +13,7 @@
     <PackageVersion Include="Npgsql" Version="7.0.9" />
     <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
     <PackageVersion Include="NSubstitute" Version="5.3.0" />
-    <PackageVersion Include="Portable.System.DateTimeOnly" Version="8.0.2" />
+    <PackageVersion Include="Portable.System.DateTimeOnly" Version="9.0.0" />
     <PackageVersion Include="Respawn" Version="6.2.1" />
     <PackageVersion Include="Testcontainers.PostgreSql" Version="4.1.0" />
     <PackageVersion Include="xunit" Version="2.9.2" />
