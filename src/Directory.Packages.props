@@ -6,7 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="DotNet.ReproducibleBuilds" Version="1.2.25" />
-    <PackageVersion Include="Marten" Version="7.35.1" />
+    <PackageVersion Include="Marten" Version="7.37.1" />
     <PackageVersion Include="Nerdbank.GitVersioning" Version="3.7.112" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
