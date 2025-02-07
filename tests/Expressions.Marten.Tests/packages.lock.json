@@ -120,8 +120,8 @@
       },
       "JasperFx.Core": {
         "type": "Transitive",
-        "resolved": "1.9.0",
-        "contentHash": "/XSlWdqsmK2R/s0UunlGi0Yq4gQk3iWkk3T0gWN5R40P5JYnWDS+m8uYzR3k2+PVrZo5DExw9PnVJSwsUu0vDA==",
+        "resolved": "1.12.0",
+        "contentHash": "asAIQTij/gyZd3tK4Gx3E95/6iV0PDTfms/78lfUoDGmgt5DZMC2UBXz9j11nmSTN74XCpJhn0e1e161708NMw==",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         }
@@ -140,12 +140,12 @@
       },
       "Marten": {
         "type": "Transitive",
-        "resolved": "7.35.1",
-        "contentHash": "Cqg9NatPTJxuQ4l1xXVSdD291vIEbrW5IecwytYeXf5Nbsjgtdsn0ZFquqhT5h+LrQ8hoD6MDKlKmzPWRokGjA==",
+        "resolved": "7.37.1",
+        "contentHash": "dq/DEXHc/ymXt8xUmYKg+mZVzlO9uW6yMQ6+c5AoaCV5oJW0lXdTFS1eIGOPNJ6WO1/r/iNhitcSi8y6ua+Gcw==",
         "dependencies": {
           "FSharp.Core": "9.0.100",
           "JasperFx.CodeGeneration": "3.7.2",
-          "JasperFx.Core": "1.9.0",
+          "JasperFx.Core": "1.12.0",
           "JasperFx.RuntimeCompiler": "3.7.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
@@ -156,7 +156,7 @@
           "Polly.Core": "8.5.0",
           "System.Text.Json": "8.0.5",
           "System.Threading.Tasks.Dataflow": "8.0.0",
-          "Weasel.Postgresql": "7.13.2"
+          "Weasel.Postgresql": "7.13.5"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces": {
@@ -877,20 +877,20 @@
       },
       "Weasel.Core": {
         "type": "Transitive",
-        "resolved": "7.13.2",
-        "contentHash": "ueRmtxRPH6H5bIqxeJLdvbREJ45tzGSZT1MjlNpfjLE55X+0zYFW9Mtrvmsj7OzjVbaACA9SCIwSMWLw+67QEw==",
+        "resolved": "7.13.5",
+        "contentHash": "YRd0DImAeUUikcnsiscTIvSWerNhSUjW6J++0pevOWVivZ+cHhgDKsg7R+6qngj4ofixvpyC1I/KOudU0+mcww==",
         "dependencies": {
           "JasperFx.Core": "1.9.0"
         }
       },
       "Weasel.Postgresql": {
         "type": "Transitive",
-        "resolved": "7.13.2",
-        "contentHash": "ZOrlbMIK9Tu3U+7yY1/xSZQcU+MDBwtGZL1wlEzMVQSKOJfdrN2mOwTAaileY80etW/BsVxFJ5GpF1g+8lqJjQ==",
+        "resolved": "7.13.5",
+        "contentHash": "uhuhiJzw65l8pE/mSw7O40an/Xcz2wou+sdSFo6KJImHd1TXaJwAUy/wPBgAajaefAPCnkMeVB74ehDwBMG83Q==",
         "dependencies": {
           "Npgsql": "8.0.6",
           "Npgsql.NetTopologySuite": "8.0.6",
-          "Weasel.Core": "7.13.2"
+          "Weasel.Core": "7.13.5"
         }
       },
       "xunit.abstractions": {
@@ -949,7 +949,7 @@
       "Raiqub.Expressions.Marten": {
         "type": "Project",
         "dependencies": {
-          "Marten": "[7.35.1, )",
+          "Marten": "[7.37.1, )",
           "Raiqub.Expressions.Database": "[1.0.0, )",
           "Raiqub.Expressions.Writing": "[1.0.0, )"
         }
